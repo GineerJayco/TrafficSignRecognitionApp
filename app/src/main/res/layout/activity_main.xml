@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+  <!-- Logo Image -->
+
+  <!-- Text below the Logo -->
+
+  <ImageView
+      android:id="@+id/logoImage"
+      android:layout_width="160dp"
+      android:layout_height="171dp"
+      android:layout_marginBottom="1dp"
+      android:contentDescription="Logo"
+      android:src="@drawable/t0" />
+
+  <TextView
+      android:id="@+id/logoText"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Traffic Sign Recognition"
+      android:textSize="18sp"
+      android:textColor="#000000"
+      android:layout_marginBottom="20dp" />
+
+  <!-- Real-Time Detection Button -->
+  <Button
+      android:id="@+id/realTimeButton"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Real-Time Detection" />
+
+  <!-- Storage Detection Button -->
+  <Button
+      android:id="@+id/storageButton"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Storage Detection" />
+
+</LinearLayout>

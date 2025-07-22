@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- ImageView to show the processed image -->
+
+    <!-- TextView to show the detection results -->
+
+    <ImageView
+        android:id="@+id/resultImageView"
+        android:layout_width="match_parent"
+        android:layout_height="438dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:contentDescription="Processed Image" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="217dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-14dp"
+        android:padding="16dp"
+        android:text="Detection Results"
+        android:textSize="18sp" />
+
+</RelativeLayout>

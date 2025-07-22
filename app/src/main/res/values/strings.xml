@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TrafficSignRecognition</string>
+    <string name="selected_image" />
+    <string name="result_will_appear_here">Result will appear here.</string>
+</resources>
