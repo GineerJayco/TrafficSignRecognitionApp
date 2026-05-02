@@ -1,2 +1,6 @@
 # TrafficSignRecognitionApp
-# TrafficSignRecognitionApp
+
+Traffic Sign Recognition App is a mobile-based deep learning application designed to detect and classify road traffic signs in real time using computer vision and machine learning. The system helps improve road safety by assisting users in identifying traffic signs accurately through image capture and live recognition.
+Built using Android Studio with Java/XML for the mobile interface and integrated with a trained TensorFlow Lite (TFLite) model, the application processes camera input, performs image preprocessing, and predicts the corresponding traffic sign class with high efficiency. It supports real-time recognition by utilizing OpenCV and TensorFlow Lite for optimized on-device inference, making it lightweight and suitable for mobile deployment.
+The project includes modules for image acquisition, preprocessing, model inference, prediction display, and result handling. It aims to provide an accessible and practical traffic sign recognition solution that can be used for driver assistance, educational purposes, and intelligent transportation system research.
+This application demonstrates the integration of artificial intelligence and mobile development by combining deep learning-based image classification with an intuitive Android user interface, offering a smart and responsive road sign detection experience.
